@@ -337,7 +337,7 @@ public:
 class MobilePhone // ÌÎÁ²ËÜÍÈÉ ÒÅËÅÔÎÍ
 {
 private:
-    string color_phone = "white";
+    string color_phone = "silver";
     string brand = "iphone";
     bool case_phone = true;
     string case_color = "purple";
@@ -717,11 +717,11 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     Human m;
-    m.SetName("Ангеліна");
+    m.SetName("Марія");
     m.SetLaugh("ХА-ХА-ХА!");
     m.SetEnergy(90);//%
     m.SetAge(18);//ðîê³â
-    m.SetGrowth(170.2);//ñì
+    m.SetGrowth(169.2);//ñì
     m.SetHairColor("русий³");
     m.SetGender("жінка");
     m.sits = false;
@@ -731,8 +731,8 @@ int main()
 
     Raccoon r;
     r.noize = "ГРРР!";
-    r.SetNick("Степан");
-    r.SetWeight(5.6); //kg
+    r.SetNick("Еліас");
+    r.SetWeight(4.6); //kg
     r.age = 2;
     r.SetEnergy(100);
     r.SetHungry(70);
